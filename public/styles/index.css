@@ -215,20 +215,18 @@ main {
         font-size: 16px;
     }
     .card-container {
-        width: 90%;
-        max-width: 344px;
-        height: auto;
+        width: 344px;
+        height: 535px;
     }
     .card-head {
         height: 96px;
     }
     .card-content {
-        height: auto;
+        height: 422px;
     }
     .content-chart {
-        height: auto;
+        height: 240px;
     }
-
     .chart-bar {
         width: 33px;
     }

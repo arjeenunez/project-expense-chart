@@ -214,9 +214,10 @@ main {
     body {
         font-size: 16px;
         background-color: var(--color-red100);
+        height: auto;
     }
     main {
-        height: fit-content;
+        height: 100%;
     }
     .card-container {
         width: 344px;

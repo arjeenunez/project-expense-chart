@@ -58,7 +58,7 @@ main {
 
 .head-content h1 {
     margin: 0;
-    font-size: 32px;
+    font-size: 1.78rem;
     font-weight: 600;
 }
 
@@ -94,7 +94,7 @@ main {
 .content-header {
     height: 56px;
     padding: 8px auto;
-    font-size: 32px;
+    font-size: 1.78rem;
     font-weight: bold;
     letter-spacing: -0.5%;
 }
@@ -136,7 +136,7 @@ main {
     position: absolute;
     bottom: -8px;
     width: 100%;
-    font-size: 14px;
+    font-size: 0.78rem;
     text-align: center;
     color: var(--color-brown400);
     letter-spacing: 2.5%;
@@ -148,7 +148,7 @@ main {
     top: -48px;
     width: 75px;
     height: 40px;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 40px;
     text-align: center;
     color: white;
@@ -165,12 +165,12 @@ main {
 .footer-title,
 .footer-caption,
 .footer-increase {
-    font-size: 18px;
+    font-size: 1rem;
     letter-spacing: 1%;
 }
 
 .footer-amount {
-    font-size: 48px;
+    font-size: 2.67rem;
     font-weight: 600;
     color: var(--color-brown950);
     letter-spacing: 1%;
@@ -184,6 +184,7 @@ main {
 .footer-amount-container {
     display: flex;
     justify-content: space-between;
+    align-items: last baseline;
 }
 
 .footer-caption-container span {
@@ -206,4 +207,41 @@ main {
     width: 100%;
     text-align: center;
     transform: translateX(-50%);
+}
+
+@media (max-width: 800px) {
+    html,
+    body {
+        font-size: 16px;
+    }
+    .card-container {
+        width: 344px;
+        height: 535px;
+    }
+    .card-head {
+        height: 96px;
+    }
+    .card-content {
+        height: 422px;
+    }
+    .content-chart {
+        height: 240px;
+    }
+    .chart-bar {
+        width: 33px;
+    }
+    .bar-amount {
+        transform: translateX(-28%);
+        z-index: 10;
+    }
+    .content-footer {
+        padding: 16px 0;
+    }
+    .footer-title,
+    .footer-caption {
+        font-size: 0.75rem;
+    }
+    .footer-amount {
+        font-size: 2.1rem;
+    }
 }

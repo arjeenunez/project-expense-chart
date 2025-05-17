@@ -213,13 +213,15 @@ main {
     html,
     body {
         font-size: 16px;
+        background-color: var(--color-red100);
     }
     main {
-        height: 100vh;
+        height: fit-content;
     }
     .card-container {
         width: 344px;
         height: 535px;
+        margin: 16px;
     }
     .card-head {
         height: 96px;
@@ -246,5 +248,8 @@ main {
     }
     .footer-amount {
         font-size: 2.1rem;
+    }
+    .attribution {
+        font-size: 10px;
     }
 }
